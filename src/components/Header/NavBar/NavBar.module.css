@@ -1,0 +1,15 @@
+nav {
+	display: flex;
+	justify-content: center;
+	height: 2.875rem;
+	border: 1px solid #E7E7E7;
+}
+
+.links {
+	display: flex;
+	width: 1310px;
+	gap: 3rem;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}

@@ -1,0 +1,38 @@
+.productForm {
+	display: flex;
+	width: 6rem;
+	height: 2.5rem;
+	border: 1px solid #8d8d8d;
+	border-radius: 20px;
+	padding: .3rem .5rem;
+}
+
+.formRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+
+.formInput {
+	width: 2.5rem;
+	padding: .2rem;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.formControl {
+	padding: 0 .5rem;
+	margin-bottom: 4px;
+}
+
+.btnMinus,
+.btnPlus {
+	cursor: pointer;
+	border: none;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}

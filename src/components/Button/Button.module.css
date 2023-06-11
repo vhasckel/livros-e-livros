@@ -1,0 +1,33 @@
+.btn {
+    display: inline-block;
+    border-radius: 24px;
+    padding: .7rem;
+    line-height: .5rem;
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    border: 2px solid var(--vermelho-escuro);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn.lg  {
+    height: 2.5rem;
+    width: 13.5rem;
+}
+
+.btn.CEP {
+    height: 2.5rem;
+    width: 7rem;
+}
+
+.btn.login {
+    width: 93%;
+    height: 3rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.btn:hover {
+    border: 2px solid var(--vermelho-escuro);
+    background-color: 3px solid var(--branco);
+    color: var(--vermelho-escuro);
+}

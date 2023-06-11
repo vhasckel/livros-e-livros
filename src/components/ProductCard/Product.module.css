@@ -1,0 +1,58 @@
+.book {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 242px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 10px 10px 10px 10px;
+	padding-bottom: 1.5rem;
+	margin-bottom: 2rem;
+	transition: transform .2s;
+}
+
+.book:hover {
+	transform: translate(0, -1rem);
+}
+
+.cover {
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	max-height: 350px;
+}
+
+.title {
+	font-family: var(--fonte-secundaria);
+	font-size: 1.25rem;
+	color: var(--vermelho-escuro);
+	margin-top: 1rem;
+}
+
+.author {
+	font-size: 1rem;
+	line-height: 2rem;
+	color: #333333;
+}
+
+.price {
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+
+@media (max-width: 1100px) {
+	.book {
+		width: 12rem;
+	}
+
+	.title {
+		font-weight: 600;
+	}
+}
+@media (max-width: 375px) {
+	.book {
+		width: 10rem;
+	}
+
+	.title {
+		font-weight: 600;
+	}
+}

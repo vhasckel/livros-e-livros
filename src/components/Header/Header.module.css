@@ -1,0 +1,41 @@
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	height: 5rem;
+	display: flex;
+	width: 1310px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container_left,
+.container_right {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+
+@media (max-width: 1100px) {
+	.container {
+		height: 3.5rem;
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.livrosElivros {
+		width: 120px;
+	}
+
+	.logoCoruja {
+		width: 30px;
+	}
+
+	.container_left,
+	.container_right {
+		gap: .5rem;
+	}
+}
