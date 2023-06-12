@@ -17,7 +17,7 @@ Usado para retornar uma função que permite navegar programaticamente, sendo po
 - useLocation() *react-router-dom* <br>
 Retorna a localização atual. Útil para executar algum efeito colateral sempre que o local for alterado. Usei no componente **ScrollToTop** para que as páginas sempre carreguem a partir do topo.
 
-## propriedades da aplicação
+## Propriedades da aplicação
 
 - localStorage <br>
 Usado para persistir dados da aplicação e não serem perdidos ao recarregar a página. Usei para salvar a quantidade de itens selecionados no counter da página do produto.
