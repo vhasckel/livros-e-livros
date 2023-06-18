@@ -14,6 +14,7 @@ const Header = () => {
         <div className={styles.container}>
           <Link to="/">
             <div className={styles.container_left}>
+              <h4 className={styles.mobileNavigation}>nav</h4>
               <img className={styles.logoCoruja} src={LogoImage} alt="Imagem de uma coruja, logo da loja"></img>
               <img className={styles.livrosElivros} src={LivrosELivros} alt="Livros e Livros"></img>
             </div>

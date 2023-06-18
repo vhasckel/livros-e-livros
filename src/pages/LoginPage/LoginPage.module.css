@@ -15,7 +15,6 @@
 }
 
 .containerForm {
-	width: 1310px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -26,7 +25,7 @@
 .labelBox {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
+	padding: 1rem 0 1rem 0;
 }
 
 .inputLogin {
@@ -56,11 +55,6 @@
 		padding: 2rem 0 2rem 0;
 		width: 100%;
 	}
-
-	.containerForm {
-		width: 360px;
-	}
-
 	.inputLogin {
 		width: 20rem;
 	}

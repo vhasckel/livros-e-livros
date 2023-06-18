@@ -2,7 +2,7 @@ import { Route, Routes, useParams } from "react-router-dom";
 import books from "../../json/books.json";
 import ProductModel from "../../components/ProductModel";
 import NotFound from "../404";
-import Layout from "../../components/Layout";
+import Layout from "../../components/BaseLayout";
 
 const ProductPage = () => {
   const params = useParams();

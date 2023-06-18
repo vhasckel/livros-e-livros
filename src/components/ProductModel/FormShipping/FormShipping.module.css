@@ -1,33 +1,35 @@
 .container {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+input {
+	display: block;
 }
 
 .calcShipping {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-    gap: .5rem;
+	display: flex;
+	/* flex-direction: column; */
+	padding: 1rem 0;
+	gap: .5rem;
 
 }
 
-.CEPTitle{
-    font-size: .8rem;
-    padding: 0 0 0 .5rem;
+.CEPTitle {
+	font-size: .8rem;
+	padding: 0 0 0 .5rem;
 }
 
 .CEPInput {
-    border-radius: 20px;
-    border: 1px solid #8d8d8d;
-    height: 2.5rem;
-    padding: 0 0 0 1rem;
-    outline: none;
+	border-radius: 20px;
+	border: 1px solid #8d8d8d;
+	height: 2.5rem;
+	padding: 0 0 0 1rem;
+	outline: none;
 }
 
 .btnCEP {
-    display: flex;
-    height: 63px;
-    justify-content: center;
-    align-items: flex-end;
+	width: 100%;
+	height: 100%;
 }

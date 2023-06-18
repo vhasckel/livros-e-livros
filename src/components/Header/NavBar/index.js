@@ -5,7 +5,7 @@ import styles from "./NavBar.module.css";
 const NavBar = () => {
   {
     return (
-      <nav>
+      <nav className={styles.navigation}>
         <div className={styles.links}>
           <MenuLink to="">
             Filtre por temas

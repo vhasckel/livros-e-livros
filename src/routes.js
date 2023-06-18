@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import AboutPage from "./pages/AboutPage";
 import ScrollToTop from "./components/ScrollToTop";
-import Layout from "./components/Layout";
+import BaseLayout from "./components/BaseLayout";
 import NotFound from "./pages/404";
 import LoginPage from "./pages/LoginPage";
 
@@ -13,7 +13,7 @@ function AppRoutes() {
       <ScrollToTop />
 
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<BaseLayout />}>
           <Route index element={<HomePage />} />
           <Route path="sobre" element={<AboutPage />} />
           <Route path="login" element={<LoginPage />} />

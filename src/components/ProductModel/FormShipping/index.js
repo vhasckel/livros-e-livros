@@ -4,13 +4,15 @@ import styles from "./FormShipping.module.css";
 const FormShipping = () => {
   return (
     <div className={styles.container}>
+      <p className={styles.CEPTitle}>Calcular frete:</p>
       <label className={styles.calcShipping}>
-        <p className={styles.CEPTitle}>Calcular frete:</p>
-        <input className={styles.CEPInput} type="number" placeholder="Digite seu CEP" />
-      </label>
-			<div className={styles.btnCEP}>
+        <input
+          className={styles.CEPInput}
+          type="number"
+          placeholder="Digite seu CEP"
+        />
         <Button large="CEP">calcular</Button>
-			</div>
+      </label>
     </div>
   );
 };

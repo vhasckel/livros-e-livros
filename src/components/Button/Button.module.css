@@ -12,16 +12,16 @@
 
 .btn.lg  {
     height: 2.5rem;
-    width: 13.5rem;
+    width: 100%;
 }
 
 .btn.CEP {
     height: 2.5rem;
-    width: 7rem;
+    width: 100%;
 }
 
 .btn.login {
-    width: 93%;
+    width: 100%;
     height: 3rem;
     margin: 1.5rem 0 1.5rem 0;
 }
